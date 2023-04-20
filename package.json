@@ -52,7 +52,7 @@
     "html-pdf": "3.0.1",
     "jsdom": "20.0.3",
     "lodash": "4.17.21",
-    "loopback-component-storage": "https://github.com/princekr11/package-upgrades",
+    "loopback-component-storage": "https://github.com/princekr11/loopback-component-storage",
     "loopback-connector-kv-redis": "4.0.0",
     "loopback-connector-rest": "https://github.com/princekr11/loopback-connector-rest.git",
     "loopback-datasource-juggler": "4.27.1",
