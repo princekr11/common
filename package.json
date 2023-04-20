@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/princekr11/common.git"
+    "url": "https://github.com/princekr11/common.git#feature"
   },
   "author": "Ketan Patil <ketanp@valuefy.com>",
   "license": "",
