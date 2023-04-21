@@ -63,7 +63,7 @@
     "phantomjs-prebuilt": "2.1.16",
     "rate-limit-redis": "3.0.1",
     "recursive-diff": "1.0.8",
-    "request": "https://git.valuefy.com/hdfc-delta/backend/dependencies/request.git",
+    "request": "https://github.com/princekr11/request.git",
     "rsmq": "0.9.1",
     "tslib": "2.3.1",
     "type-is": "1.6.18",
