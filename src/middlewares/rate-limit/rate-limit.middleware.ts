@@ -48,7 +48,7 @@ export const rateLimiter: Middleware = async function (this: any, requestContext
 //       console.log(err) // @todo -need to remove this
       LoggingUtils.error(err)
       LoggingUtils.error('Error while executing the rate limiting midleware')
-      throw new HttpErrors.InternalServerError('Something went wrong'); //@todo - skipping this for now
+//       throw new HttpErrors.InternalServerError('Something went wrong'); //@todo - skipping this for now
     });
     const result = await next();
     return result;
