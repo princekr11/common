@@ -45,10 +45,10 @@ export const rateLimiter: Middleware = async function (this: any, requestContext
     const limiter = promisify(RateLimit.default(opts));
 
     await limiter(request, response).catch(err => {
-      console.log(err) // @todo -need to remove this
+//       console.log(err) // @todo -need to remove this
       LoggingUtils.error(err)
       LoggingUtils.error('Error while executing the rate limiting midleware')
-      // throw new HttpErrors.InternalServerError('Something went wrong'); @todo - skipping this for now
+      throw new HttpErrors.InternalServerError('Something went wrong'); //@todo - skipping this for now
     });
     const result = await next();
     return result;
